@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>projetos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagens/img blog.png">
 
@@ -12,18 +13,93 @@
     <hr>
 
     <ul id="navbar">
-         <li class="nav"><a href="pagina-inicial.html">Início</a></li>
+        <li class="nav"><a href="pagina-inicial.html">Início</a></li>
         <li class="nav"><a href="curriculo.html">Currículo</a></li>
         <li class="nav"><a href="projetos.html">Projetos</a></li>
         <li class="nav"><a href="contatos.html">Contatos</a></li>
-        <li class="nav"><a href="sobre-mim.html">Sobre</a></li>
+        <li class="nav"><a href="novidades.html">novidades</a></li>
     </ul>
 
     <hr>
 </head>
-<body>
-    
-</body>
 
+<body>
+    <h2>Projetos:</h2>
+    <div id="project">
+        <h3 id="p1"> <strong>Catálogo de Jogos Pessoais:</strong></h3>
+        <p>
+            O projeto é uma aplicação web front-end (construída com HTML, CSS e JavaScript) que funciona como um
+            portfólio ou catálogo interativo focado nos jogos que você já jogou. O conteúdo da página é gerado
+            dinamicamente através de um banco de dados local em formato JSON.O projeto fez parte da imersão de front-end
+            da Alura <br><br>
+            1. Estrutura de Dados (data.json)
+            O arquivo JSON armazena as informações do seu catálogo, contendo 7 jogos. Cada jogo possui os seguintes
+            atributos registrados: nome, uma descrição curta, ano de lançamento, um link (para vídeos ou gameplay no
+            YouTube), uma segunda descrição mais detalhada focada na história, e a URL de uma imagem de capa. Os jogos
+            inclusos são: <hr> <br><br>
+
+
+
+            <li class="jogos">Sekiro</li>
+            <br>
+            <li class="jogos"> GTA V</li>
+            <br>
+            <li class="jogos">Assassin's Creed Brotherhood</li>
+            <br>
+            <li class="jogos"> Red Dead Redemption 2</li>
+            <br>
+            <li class="jogos">Metal Gear Solid V: The Phantom Pain</li>
+            <br>
+            <li class="jogos">Watch Dogs 2</li>
+            <br>
+            <li class="jogos">Resident Evil 7 biohazard</li>
+            <br>
+<hr>
+            <br>
+            2. Funcionalidades Principais (script.js e index.html)
+            <br><br>
+            Exibição Dinâmica: O JavaScript faz a leitura do data.json e cria automaticamente os "cards" (artigos) para
+            cada jogo na tela principal.
+            <br><br>
+            Busca em Tempo Real: Há uma barra de pesquisa no cabeçalho. Conforme você digita o nome de um jogo, a tela é
+            atualizada instantaneamente para mostrar apenas os jogos que correspondem ao texto.
+            <br><br>
+            Modal Interativo (Pop-up): Ao clicar em qualquer card de jogo, a tela escurece e um "Modal" aparece
+            sobrepondo o conteúdo. Este modal exibe a história completa do jogo (descricao2), a imagem e um botão com
+            link para assistir à gameplay.
+            <br><br>
+            Sidebar (Barra Lateral): Uma seção fixa à direita que destaca os "melhores jogos de 2025 que eu joguei",
+            contendo uma recomendação especial e detalhada para o jogo Red Dead Redemption 2.
+            
+            <br><br><hr><br>
+            3. Design e Interface (style.css)
+            <br><br>
+            Identidade Visual: O site possui um tema escuro (Dark Mode) com fundo preto e utiliza tons de roxo como cor
+            primária e de destaque. A fonte utilizada para os textos é a "Quicksand".
+            <br><br>
+            Animação de Fundo: O projeto conta com um efeito visual no fundo da página, criando uma animação em cascata
+            (pingos caindo) feita puramente com CSS (@keyframes fall) e dividida em várias colunas com durações
+            diferentes.
+            <br><br>
+            Responsividade: O layout foi projetado para se adaptar a diferentes tamanhos de tela. Em celulares (telas
+            menores que 480px), a estrutura muda para organizar o conteúdo em uma única coluna e oculta o rodapé.
+            <br><br>
+            Rodapé: Contém um link direcionando para o seu perfil no Instagram.
+
+        </p>
+
+    </div>
+
+</body>
+<br>
+<section>
+    <img id="img4" src="imagens/git.png" alt="ft">
+    <a id="cod" href="https://github.com/kauerodrigues035-ops/projeto-alura">link para o código do projeto</a>
+</section>
+<main></main>
+<hr>
+<footer>
+    <p>Copyright © 2026 Kauê Rodrigues. Todos os direitos reservados.</p>
+</footer>
 
 </html>

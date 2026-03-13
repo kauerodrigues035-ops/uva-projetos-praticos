@@ -41,11 +41,17 @@ h2{
         color:rgb(21, 0, 255)
     }
 
+#cod{
+    background-color: rgba(240, 255, 255, 0);
+    margin-left: 0px;
+border-radius: 5px;
+}
+
 #redes{
-    background-color: white;
-    border-radius: 5px;
-    margin: 20px;
-   
+    background-color: rgba(9, 9, 9, 0.06);
+  padding: 10px;
+    margin: 10px;
+   border-radius: 5px;
 }
 
 body {
@@ -79,14 +85,37 @@ hr {
     height: 350px;
     border-radius: 50%;
     margin-top: 20px;
-   
+   margin-right: 10px;
+  margin-left: 10px;
 }
 
+#img2{
+width: 350px;
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+#img3{
+    width:200px;
+    height: 200px;
+  border-radius:50% ;
+
+}
+
+
+#img4{
+
+height: 50px;
+margin-left: 10px;
+border-radius: 2px;
+}
 #sobre-mim{
  
  margin-bottom: 20px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: flex;
+      font-size: 30px;
 }
 main{
     height: 15vh;
@@ -107,7 +136,7 @@ form{
     display:  flex;
 }
 
-.butao-form{
+.butao-verde{
     border-radius: 5px;
     background-color: rgb(144, 224, 134);
     color: rgb(0, 0, 0);
@@ -115,7 +144,82 @@ form{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#redes-sociais{
-    
+.butao-vermelho{
+     border-radius: 5px;
+    background-color: rgb(224, 134, 134);
+    color: rgb(0, 0, 0);
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#redes-sociais{
+    background-color: rgba(78, 0, 203, 0.219);
+    font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   margin-left: 10px;
+   margin-right: 26cm;
+   border-radius: 10px;
+   padding: 15px;
+}
+.curriculo{
+
+    background-color: rgba(99, 99, 99, 0.997);
+   font-size:17px;
+    border-radius:15px ;
+   margin: 100px;
+   padding: 10px;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h4{
+margin:0;
+   padding: 1%;
+   background-color: rgba(240, 248, 255, 0.597);
+  border-radius: 2px;
+  
+}
+.c2{
+    background-color: rgba(255, 255, 255, 0.597);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1{
+    font-size: large;
+    padding-inline-start: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+}
+   
+   #project{
+    margin-left: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 19px;
+    margin-right:19px;
+    
+   }
+   .jogos{
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+#novidades{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: bisque;
+margin: 10px;
+border-radius: 10px;
+padding: 10px;
+font-size: 20px;
 }
